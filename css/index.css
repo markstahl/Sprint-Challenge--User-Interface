@@ -275,10 +275,8 @@ nav a {
     font-size: 14px;
 }
 
-.about-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
+.top-content {
+    justify-content: left;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding: 1em;
@@ -334,4 +332,32 @@ p {
     position: center;
     width: 100%;
     padding: 2em;
+}
+
+.products-photo {
+    width: 800px;
+    height: 153px;
+}
+
+.tree {
+    width: 370px;
+    height: 236px;
+}
+
+.products2 {
+    justify-content: space-evenly;
+    padding: 1em;
+    border-bottom: 1px dashed black;
+    margin-top: 30px;
+}
+
+.bottom2 {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-left: 23%;
+}
+
+.logo {
+    margin-top: 1%;
 }
